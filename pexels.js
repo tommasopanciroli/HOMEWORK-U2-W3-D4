@@ -4,7 +4,7 @@ const imgChange = document.querySelectorAll('img')
 const loadBtn = document.getElementById('loadBtn')
 const loadBtn2 = document.getElementById('loadBtn2')
 const id = document.querySelectorAll('text-muted')
-fetch('https://api.pexels.com/v1/search?query=pisatower&per_page=9', {
+fetch('https://api.pexels.com/v1/search?query=stadium&per_page=9', {
   method: 'GET',
   headers: {
     Authorization: API_KEY,
@@ -37,7 +37,7 @@ fetch('https://api.pexels.com/v1/search?query=pisatower&per_page=9', {
     imgLoop()
   })
 
-fetch('https://api.pexels.com/v1/search?query=Giovanni&per_page=9', {
+fetch('https://api.pexels.com/v1/search?query=ferrari&per_page=9', {
   method: 'GET',
   headers: {
     Authorization: API_KEY,
